@@ -35,9 +35,12 @@ export default defineConfig({
       "@mui/system",
       "@mui/icons-material",
       "@mui/base",
+      "@mui/utils",
+      "@mui/private-theming",
+      "@mui/styled-engine",
       "@emotion/react",
       "@emotion/styled",
-      "@mui/utils"
+      "@emotion/cache"
     ],
   },
 });
