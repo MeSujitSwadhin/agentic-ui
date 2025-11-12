@@ -1,6 +1,4 @@
-import pkg, { PaletteMode } from "@mui/material/styles";
-const { createTheme, responsiveFontSizes } = pkg;
-
+import { createTheme, responsiveFontSizes, PaletteMode } from "@mui/material/styles";
 
 declare module "@mui/material/styles" {
   interface Palette {

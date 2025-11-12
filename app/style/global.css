@@ -482,7 +482,7 @@ hr {
 .hero {
   width: 100%;
   height: 40.625rem;
-  background-image: url(/assets/images/landingPage/offrings-banner.webp);
+  /* background-image: url(/assets/images/landingPage/offrings-banner.webp); */
   position: relative;
   background-size: cover;
   background-position: center;
