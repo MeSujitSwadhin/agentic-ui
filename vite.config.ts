@@ -28,5 +28,14 @@ export default defineConfig({
     port: 8080
   }
   ,
-  envPrefix: 'URL_'
+  envPrefix: 'URL_',
+  ssr: {
+    noExternal: [
+      "@mui/material",
+      "@mui/system",
+      "@mui/icons-material",
+      "@emotion/react",
+      "@emotion/styled"
+    ],
+  },
 });
