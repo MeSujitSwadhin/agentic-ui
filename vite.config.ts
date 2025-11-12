@@ -34,8 +34,10 @@ export default defineConfig({
       "@mui/material",
       "@mui/system",
       "@mui/icons-material",
+      "@mui/base",
       "@emotion/react",
-      "@emotion/styled"
+      "@emotion/styled",
+      "@mui/utils"
     ],
   },
 });
